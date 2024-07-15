@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+ .wrapper{
+    background: url(./image/IMG-20240714-WA0008.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    padding: 0 60px;
+    width: 100%;
+ }
+
+ .center{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    margin-top: 10%;
+ }
+ .center h1{
+    font-size: 50px;
+    margin-top: 80px;
+ }
+ .int{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px ;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ button{
+    width: 600px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px ;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+
+.hd{
+    margin-left: 15px;
+}
+.head {
+
+    color: #fff;
+    margin: 20px;
+    gap: 30px;
+}
+
+.ft{
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.cta{
+
+ }
+ footer{
+    color: #606060;
+    text-align: center;
+    margin-bottom: 60px;
+    transition:all .5s ease;
+ }
+ footer:hover{
+   color: #fff;
+ }
+ .cta {
+    margin-top: 30px;
+ }
+
+ a:hover{
+    color: #fff;
+    background: transparent;
+ }
+
+ @media screen and (max-width: 992px) {
+   .wrapper h1 {
+       text-align: center;
+       align-items: center;
+       font-size: 40px;
+       margin-right: 100px;
+       
+   }
+   .int{
+      margin-right: 100px;
+   }
+   button{
+      width: 300px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .wrapper h1 {
+      text-align: center;
+      align-items: center;
+      font-size: 40px;
+      margin-right: 100px;
+      
+  }
+  .int{
+     margin-right: 100px;
+  }
+  button{
+     width: 300px;
+  }
+}
+@media screen and (max-width: 360px) {
+   .wrapper h1 {
+      text-align: center;
+      align-items: center;
+      font-size: 29px;
+      margin-left: ;
+      overflow-x: hidden ;
+ 
+      justify-content: space-between;
+      
+  }
+  .int{
+     margin-right: 100px;
+  }
+  button{
+     width: 300px;
+  }
+}
