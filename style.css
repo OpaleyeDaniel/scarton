@@ -59,6 +59,20 @@ body{
 .hd{
     margin-left: 15px;
 }
+.data{
+   color: #fff;
+   background-size: cover;
+   background-position: center;
+ }
+ .lion{
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+
+ }
+ .toke{
+   margin-left: 35px;
+ }
 .head {
 
     color: #fff;
@@ -107,6 +121,12 @@ body{
    button{
       width: 300px;
    }
+     .data{
+      color: #fff;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -141,4 +161,10 @@ body{
   button{
      width: 300px;
   }
+    .data{
+      color: #fff;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+    }
 }
