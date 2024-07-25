@@ -6,6 +6,7 @@
 body{
     background-color: #000;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
  .wrapper{
     background: url(./image/IMG-20240714-WA0008.jpg) no-repeat;
@@ -68,13 +69,12 @@ body{
    width: 100%;
    background-position: center;
    background-size: cover;
-
+   height: 70vh;
  }
  .toke{
    margin-left: 35px;
  }
 .head {
-
     color: #fff;
     margin: 20px;
     gap: 30px;
@@ -86,9 +86,6 @@ body{
     text-align: center;
 }
 
-.cta{
-
- }
  footer{
     color: #606060;
     text-align: center;
